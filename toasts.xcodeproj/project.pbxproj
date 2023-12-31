@@ -11,6 +11,7 @@
 		F5966B872B401766009750A5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5966B862B401766009750A5 /* ContentView.swift */; };
 		F5966B892B401767009750A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5966B882B401767009750A5 /* Assets.xcassets */; };
 		F5966B8C2B401767009750A5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5966B8B2B401767009750A5 /* Preview Assets.xcassets */; };
+		F5966B972B40487B009750A5 /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5966B962B40487B009750A5 /* Toast.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		F5966B862B401766009750A5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F5966B882B401767009750A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F5966B8B2B401767009750A5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F5966B962B40487B009750A5 /* Toast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toast.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 		F5966B832B401766009750A5 /* toasts */ = {
 			isa = PBXGroup;
 			children = (
+				F5966B952B404858009750A5 /* Helpers */,
 				F5966B842B401766009750A5 /* toastsApp.swift */,
 				F5966B862B401766009750A5 /* ContentView.swift */,
 				F5966B882B401767009750A5 /* Assets.xcassets */,
@@ -65,6 +68,14 @@
 				F5966B8B2B401767009750A5 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F5966B952B404858009750A5 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				F5966B962B40487B009750A5 /* Toast.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +149,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F5966B872B401766009750A5 /* ContentView.swift in Sources */,
+				F5966B972B40487B009750A5 /* Toast.swift in Sources */,
 				F5966B852B401766009750A5 /* toastsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
